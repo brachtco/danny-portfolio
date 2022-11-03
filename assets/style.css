@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+  header {
+    padding: 10px;
+    background-color: #595757;
+    color: white;
+    height: 25%;
+  }
+
+  .page-title {
+    color: antiquewhite;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headshot {
+    diplay: flex;
+    position: relative;
+    left: -550px;
+    top: -60px;
+    border-radius: 25%;
+    width: 8%;
+    height: 8%;
+    
+}
+  
+  nav {
+    display: flex;
+    background-color: #2F8BBF;
+  }
+  
+  nav a {
+    display: flex;
+    justify-content: space-between;
+    color:antiquewhite;
+    text-decoration: none;
+    padding: 10px 5px 10px 5px;
+    margin-left: 200px;
+    float: right;
+  }
+
+  .top-image {
+    width: 100%;
+    height: 50%;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0EA;
+    border-right: 5px solid #3FC596;
+    color: #3FC596;
+    padding: 80px;
+    text-align: left;
+  }
+
+  .about {
+    position: relative;
+    bottom: 55px;
+    left: 70px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .work {
+    position:relative;
+    left: 120px;
+    top: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p {
+    color: #2F8BBF;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  footer {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    background: #0D1772;
+    color: white;
+    margin-top: auto;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 120px;
+  }
+
+   li {
+    text-decoration: none;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    bottom: 60px;
+    right: 200px;
+    float: right;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  .portfolio {
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+  
+  .container {
+    border: 2px solid #D0D1D1;
+    padding: 10px;
+    flex: 0 0 300px;
+    margin: 20px; 
+    position: relative;
+    top: 60px;
+  }
+  
+
+  .container-header {
+    padding: 20px;
+    background-color: beige;
+    color: #2F8BBF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
