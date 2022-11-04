@@ -17,9 +17,8 @@
 }
 
 .headshot {
-    diplay: flex;
     position: relative;
-    left: -550px;
+    left: -1120px;
     top: -60px;
     border-radius: 25%;
     width: 8%;
@@ -29,17 +28,16 @@
   
   nav {
     display: flex;
+    justify-content: flex-end;
     background-color: #2F8BBF;
+    width: 100%;
   }
   
   nav a {
-    display: flex;
-    justify-content: space-between;
     color:antiquewhite;
     text-decoration: none;
-    padding: 10px 5px 10px 5px;
-    margin-left: 200px;
-    float: right;
+    padding: 10px 10px 10px 10px;
+  
   }
 
   .top-image {
@@ -88,31 +86,43 @@
   footer {
     width: 100%;
     padding: 20px;
-    text-align: left;
     background: #0D1772;
     color: white;
     margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   h3 {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: 120px;
+    left: 110px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
   }
 
    li {
     text-decoration: none;
     justify-content: space-evenly;
-    display: flex;
-    flex-direction: row-reverse;
-    position: relative;
-    bottom: 60px;
-    right: 200px;
-    float: right;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+  }
 
+  li a {
+    color: white;
+    text-decoration: none;
+
+  }
+
+  li a:hover {
+    cursor: pointer;
   }
   
   .portfolio {
